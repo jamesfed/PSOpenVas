@@ -19,15 +19,20 @@ param(
     #Run the query against the OpenVAS Server
     $Targets = & $OmpPath\omp.exe -T 2> $null
 
-    #
+    #Build a collection to store the results in
     $OutputTargets = New-Object System.Collections.ArrayList
 
     foreach($line in $Targets){
+
+        #Extract the useful info from $Targets
         $item = New-Object -TypeName System.Object
         $item | Add-Member -MemberType NoteProperty -Name "GUID" -Value $line.Substring(0,36)
         $item | Add-Member -MemberType NoteProperty -Name "Name" -Value $line.Remove(0,38)
+
+        #Add it to the collection
         $OutputTargets.Add($item) | Out-Null
     }
 
+    #Return the targets
     return $OutputTargets
 }
