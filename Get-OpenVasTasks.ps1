@@ -2,13 +2,13 @@
 {
 <#
 .Synopsis
-   Return the GUIDs and Target Names from an OpenVAS Server
+   Return the GUIDs, status and Task Names from an OpenVAS Server
 .DESCRIPTION
-   Return the GUIDs and Target Names from an OpenVAS Server
+   Return the GUIDs, status and Task Names from an OpenVAS Server
 .EXAMPLE
-   Get-OpenVasTargets -OmpPath "C:\Program Files (x86)\OpenVAS-OMP"
+   Get-OpenVasTasks -OmpPath "C:\Program Files (x86)\OpenVAS-OMP"
 .EXAMPLE
-    Get-OpenVasTargets -OmpPath "C:\Program Files (x86)\OpenVAS-OMP" | Out-GridView
+   Get-OpenVasTasks -OmpPath "C:\Program Files (x86)\OpenVAS-OMP" | Out-GridView
 #>
 
 param(
