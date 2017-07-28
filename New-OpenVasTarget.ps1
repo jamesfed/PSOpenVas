@@ -22,7 +22,7 @@ param(
     [String]$Name,
     [Parameter(Mandatory=$true,HelpMessage="Enter a Subnet, IP Range, Single IP or Hostname for the target")]
     [String]$Target,
-    [Parameter(Mandatory=$true,HelpMessage="Enter a subnet, IP Range or Single IP to exclude from the target")]
+    [Parameter(Mandatory=$false,HelpMessage="Enter a subnet, IP Range or Single IP to exclude from the target")]
     [String]$Exclude
     )
     
