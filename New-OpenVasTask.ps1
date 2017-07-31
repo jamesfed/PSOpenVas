@@ -6,7 +6,7 @@
 .DESCRIPTION
    Add a new Task to OpenVAS
 .EXAMPLE
-   New-OpenVasTarget -OmpPath "C:\Program Files (x86)\OpenVAS-OMP" -Name "Subnet" -Target "10.128.16.0/21" -Exclude "10.128.16.1"
+   New-OpenVasTask -OmpPath "C:\Program Files (x86)\OpenVAS-OMP" -Name "Test VLAN4" -TargetName "VLAN4" -ScanName "Full and fast"
 #>
 
 param(
