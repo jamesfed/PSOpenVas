@@ -27,5 +27,5 @@ param(
     )
     
     #Run the query against the OpenVAS Server
-    & $Source\omp.exe -X "<create_target><name>$Name</name><hosts>$Target</hosts><exclude_hosts>$Exclude</exclude_hosts></create_target>" 2> $null
+    & $OmpPath\omp.exe -X "<create_target><name>$Name</name><hosts>$Target</hosts><exclude_hosts>$Exclude</exclude_hosts></create_target>" 2> $null
 }
