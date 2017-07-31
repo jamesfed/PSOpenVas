@@ -17,7 +17,7 @@ param(
     )
     
     #Run the query against the OpenVAS Server
-    $Scans = & $Source\omp.exe -g 2> $null
+    $Scans = & $OmpPath\omp.exe -g 2> $null
 
     #Build a collection to store the results in
     $OutputScans = New-Object System.Collections.ArrayList

@@ -17,7 +17,7 @@ param(
     )
     
     #Run the query against the OpenVAS Server
-    $ReportFormats = & $Source\omp.exe --get-report-formats 2> $null
+    $ReportFormats = & $OmpPath\omp.exe --get-report-formats 2> $null
 
     #Build a collection to store the results in
     $OutputReportFormats = New-Object System.Collections.ArrayList

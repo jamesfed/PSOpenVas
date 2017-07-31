@@ -17,7 +17,7 @@ param(
     )
     
     #Run the query against the OpenVAS Server
-    $Tasks = & $Source\omp.exe --get-tasks 2> $null
+    $Tasks = & $OmpPath\omp.exe --get-tasks 2> $null
 
     #Build a collection to store the results in
     $OutputTasks = New-Object System.Collections.ArrayList
