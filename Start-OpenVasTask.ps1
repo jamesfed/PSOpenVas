@@ -7,6 +7,8 @@
    Start and existing Task in OpenVAS
 
    Built with infomation from http://docs.greenbone.net/GSM-Manual/gos-4/en/omp.html#access-with-omp
+   
+   See http://myworldofit.net/?p=10436 for detailed usage examples
 .EXAMPLE
    Start-OpenVasTask -OmpPath "C:\Program Files (x86)\OpenVAS-OMP" -TaskName 'Scan VLAN4'
 .EXAMPLE

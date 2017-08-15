@@ -7,6 +7,8 @@
    Add a new Task to OpenVAS
 
    Built with infomation from http://docs.greenbone.net/GSM-Manual/gos-4/en/omp.html#access-with-omp
+
+   See http://myworldofit.net/?p=10436 for detailed usage examples
 .EXAMPLE
    New-OpenVasTask -OmpPath "C:\Program Files (x86)\OpenVAS-OMP" -Name "Test VLAN4" -TargetName "VLAN4" -ScanName "Full and fast"
 #>
