@@ -5,6 +5,8 @@
    Return the GUIDs and Scan Names from an OpenVAS Server
 .DESCRIPTION
    Return the GUIDs and Scan Names from an OpenVAS Server
+
+   Built with infomation from http://docs.greenbone.net/GSM-Manual/gos-4/en/omp.html#access-with-omp
 .EXAMPLE
    Get-OpenVasScans -OmpPath "C:\Program Files (x86)\OpenVAS-OMP"
 .EXAMPLE

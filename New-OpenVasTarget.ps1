@@ -5,6 +5,8 @@
    Add a new Target (with or without Exceptions) to OpenVAS
 .DESCRIPTION
    Add a new Target (with or without Exceptions) to OpenVAS
+
+   Built with infomation from http://docs.greenbone.net/GSM-Manual/gos-4/en/omp.html#access-with-omp
 .EXAMPLE
    New-OpenVasTarget -OmpPath "C:\Program Files (x86)\OpenVAS-OMP" -Name "Subnet" -Target "10.128.16.0/21" -Exclude "10.128.16.1"
 .EXAMPLE

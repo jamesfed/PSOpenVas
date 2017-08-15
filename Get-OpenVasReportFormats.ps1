@@ -5,6 +5,8 @@
    Return the GUIDs and Report Format Names from an OpenVAS Server
 .DESCRIPTION
    Return the GUIDs and Report Format (e.g. CSV Hosts or HTML) from an OpenVAS Server
+
+   Built with infomation from http://docs.greenbone.net/GSM-Manual/gos-4/en/omp.html#access-with-omp
 .EXAMPLE
    Get-OpenVasReportFormats -OmpPath "C:\Program Files (x86)\OpenVAS-OMP"
 .EXAMPLE
